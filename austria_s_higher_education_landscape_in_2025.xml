@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata xml:lang="en">
+<Esri>
+<CreaDate>20250622</CreaDate>
+<CreaTime>02423861</CreaTime>
+<ArcGISFormat>1.0</ArcGISFormat>
+<ArcGISProfile>ISO19139</ArcGISProfile>
+<DataProperties><itemProps><imsContentType>007</imsContentType>
+</itemProps>
+</DataProperties>
+<scaleRange>
+<minScale>14772515.613601</minScale>
+<maxScale>191266.079454</maxScale>
+</scaleRange>
+<ModDate>20250704</ModDate>
+<ModTime>21092509</ModTime>
+<locales>
+<locale country="AT" language="eng">
+</locale>
+</locales>
+<PublishStatus>editor:esri.dijit.metadata.editor</PublishStatus>
+<ArcGISstyle>ISO 19139 Metadata Implementation Specification GML3.2</ArcGISstyle>
+<MapLyrSync>false</MapLyrSync>
+</Esri>
+<dataIdInfo>
+<idAbs>The data originates from an API called “Courses of Study,” hosted on the European Union&#x27;s open data portal, data.europa.eu. It is published by Austria&#x27;s Federal Ministry of Education, Science and Research. However, not all fields from the original API are used, only the following variables are included: institution, location, level of study, language, field of study, and a link to the course curriculum. Additionally, a coordinates variable (latitude and longitude) has been added, derived from the location data. Location names were standardised where inconsistencies existed, for example, entries such as &quot;Spittal a.d. Drau&quot; and &quot;Spittal a.d.Drau&quot; were unified as &quot;Spittal an der Drau.&quot; Entries with undefined languages were categorised as &quot;Unknown.&quot; The &quot;level of study&quot; variable originally contained several similar but inconsistently named categories, which have been transformed into the following standard categories: Bachelor, Diploma, Master, Doctorate, and Licentiate. Furthermore, the field of study entries have been grouped into ten categories: Humanities &amp; amp; Cultural Studies, Engineering, Artistic Studies, Teacher Education, Medicine &amp; amp; Health Sciences, Natural Sciences, Law, Social &amp;amp; Economic Sciences, Theological Studies, and Unknown.</idAbs>
+<idCitation>
+<resTitle>Austria´s Higher Education Landscape in  2025</resTitle>
+<date>
+<pubDate>2025-06-20</pubDate>
+<createDate>2025-06-20T00:00:00</createDate>
+<reviseDate>2025-12-31</reviseDate>
+</date>
+<citOnlineRes>
+<linkage>https://zgis216.geo.sbg.ac.at/server/rest/services/st25_856162_sde_s1106876_SDI_POINTS/FeatureServer/0/query?where=1%3D1&amp;outFields=*&amp;returnGeometry=true&amp;f=json</linkage>
+<orFunct>
+<OnFunctCd value="005">
+</OnFunctCd>
+</orFunct>
+</citOnlineRes>
+<presForm>
+<PresFormCd value="007">
+</PresFormCd>
+<fgdcGeoform>vector digital data</fgdcGeoform>
+</presForm>
+</idCitation>
+<dataExt>
+<exDesc>The total extent of this dashboard is restricted to the geographical extent of Austria.</exDesc>
+<geoEle>
+<GeoBndBox>
+<westBL>9.53</westBL>
+<eastBL>17.16</eastBL>
+<northBL>49.02</northBL>
+<southBL>46.38</southBL>
+<exTypeCode>1</exTypeCode>
+</GeoBndBox>
+</geoEle>
+</dataExt>
+<idPoC>
+<rpIndName>Sumudu Galpayage</rpIndName>
+<rpOrgName>Paris Lodron University of Salzburg</rpOrgName>
+<rpPosName>Student</rpPosName>
+<role><RoleCd value="006">
+</RoleCd>
+</role>
+</idPoC>
+<idPoC>
+<rpIndName>Florian Sebastian Kienhoefer</rpIndName>
+<rpOrgName>Paris Lodron University of Salzburg</rpOrgName>
+<rpPosName>Student</rpPosName>
+<role><RoleCd value="010">
+</RoleCd>
+</role>
+<rpCntInfo>
+<cntAddress addressType="postal">
+<city>Salzburg</city>
+<adminArea>Salzburg</adminArea>
+<postCode>5020</postCode>
+<country>AT</country>
+</cntAddress>
+</rpCntInfo>
+</idPoC>
+<searchKeys>
+<keyword>academic programmes</keyword>
+<keyword>Austria</keyword>
+<keyword>bachelor</keyword>
+<keyword>course filtering</keyword>
+<keyword>course visualisation</keyword>
+<keyword>diploma</keyword>
+<keyword>doctorate</keyword>
+<keyword>education</keyword>
+<keyword>education dashboard</keyword>
+<keyword>education data</keyword>
+<keyword>education landscape</keyword>
+<keyword>educational planning</keyword>
+<keyword>gis for education</keyword>
+<keyword>higher education</keyword>
+<keyword>licentiate</keyword>
+<keyword>master</keyword>
+<keyword>private universities</keyword>
+<keyword>prospective students</keyword>
+<keyword>public universities</keyword>
+<keyword>study programmes</keyword>
+<keyword>teacher training</keyword>
+<keyword>universities</keyword>
+<keyword>universities of applied sciences</keyword>
+<keyword>university landscape austria</keyword>
+</searchKeys>
+<themeKeys>
+<keyword>Higher Education</keyword>
+<keyword>Austria</keyword>
+</themeKeys>
+<idPurp>This dashboard shows all higher education courses in Austria offered by public and private universities, universities of applied sciences and teacher trainining colleges. It contains information on the name and location of the institution, level of study, language of the courses offered, main field of study, name of the specified course and a link to the respective course curriculum. The aim of this service is to visualise the geographical distribution of higher education offerings across various institutions in Austria.</idPurp>
+<idCredit>Florian Sebastian Kienhoefer,
+Sumudu Priyadarshika Galpayage Dona,
+Manfred Mittleboeck,
+Eva Steinbacher,
+Austria&#x27;s Federal Ministry of Education, Science and Research;
+https://www.bmb.gv.at/en.html,
+European Union&#x27;s open data;
+https://data.europa.eu/data/datasets/ab7cf2a1-ccbd-4179-a78c-8934b3ae8ac1?locale=en</idCredit>
+<resConst>
+<Consts>
+<useLimit>This service is publicly available and no authentication is needed in accessing the service.</useLimit>
+</Consts>
+</resConst>
+<dataLang>
+<languageCode value="eng">
+</languageCode>
+<countryCode value="AT">
+</countryCode>
+</dataLang>
+<dataChar>
+<CharSetCd value="004">
+</CharSetCd>
+</dataChar>
+<spatRpType>
+<SpatRepTypCd value="001">
+</SpatRepTypCd>
+</spatRpType>
+<dataScale>
+<equScale>
+<rfDenom>1:5000</rfDenom>
+</equScale>
+</dataScale>
+<idStatus>
+<ProgCd value="004">
+</ProgCd>
+</idStatus>
+<suppInfo>The data was downloaded from Eu data open portal on 20th March 2025 and can vary upon updated. The dashboard was created as a requirement for the SDI course, offered in the summer term 2025, for the masters´ degree of Applied Geoinformatics  offered at  the university of Salzburg, Austria.</suppInfo>
+<dsFormat>
+<formatName>ESRI REST Service</formatName>
+<formatVer>Version 11.5</formatVer>
+</dsFormat>
+<resMaint>
+<maintFreq>
+<MaintFreqCd value="008">
+</MaintFreqCd>
+</maintFreq>
+<dateNext>2025-12-31T00:00:00</dateNext>
+</resMaint>
+<aggrInfo>
+<aggrDSName>
+<resTitle>Austria´s Higher education Landscape</resTitle>
+<date><pubDate>2025-06-20T00:00:00</pubDate>
+</date>
+</aggrDSName>
+</aggrInfo>
+<discKeys>
+<keyword>Higher Education</keyword>
+</discKeys>
+<tpCat>
+<TopicCatCd value="007">
+</TopicCatCd>
+</tpCat>
+<tpCat>
+<TopicCatCd value="008">
+</TopicCatCd>
+</tpCat>
+<tpCat>
+<TopicCatCd value="016">
+</TopicCatCd>
+</tpCat>
+</dataIdInfo>
+<mdLang>
+<languageCode value="eng">
+</languageCode>
+</mdLang>
+<mdHrLv>
+<ScopeCd value="014">
+</ScopeCd>
+</mdHrLv>
+<mdFileID>ce9b89f97f9444ee997f653d4cd36624</mdFileID>
+<mdChar>
+<CharSetCd value="004">
+</CharSetCd>
+</mdChar>
+<mdDateSt>2025-06-20</mdDateSt>
+<mdTimeSt>12:31:00</mdTimeSt>
+<mdContact>
+<rpIndName>Sumudu Galpayage</rpIndName>
+<rpOrgName>Paris Lodron University of Salzburg</rpOrgName>
+<rpPosName>Student</rpPosName><role>
+<RoleCd value="006">
+</RoleCd>
+</role>
+</mdContact>
+<dqInfo>
+<dqScope>
+<scpLvl>
+<ScopeCd value="009">
+</ScopeCd>
+</scpLvl>
+</dqScope>
+<dataLineage>
+<statement>The dataset was originally obtained from the EU Open Data Portal, specifically governed and provided by the Austrian authority responsible for education. Upon acquisition, the data was preprocessed using PHP scripts to prepare it for geospatial use and was converted into GeoJSON format.The dashboard data originates from this GeoJSON files stored and managed within a PostgreSQL database maintained by the University GeoServer of Paris Lodron Univerity of Salzburg at geoserver22s.zgis.at. Initial processing of the data was performed directly in the database to ensure data quality and consistency. The processed data was then connected to ArcGIS Pro, where it was published as an ESRI feature service through the University-maintained Geoportal. This feature service served as the data source for creating a web map, which was subsequently used to develop the dashboard within ArcGIS Enterprise. This processing chain ensures traceability from the original open data source through each transformation step to the final published output used in the ArcGIS Enterprise dashboard.</statement>
+<dataSource>
+<srcDesc>EU Open Data Portal (URL: https://data.europa.eu/data/datasets/ab7cf2a1-ccbd-4179-a78c-8934b3ae8ac1?locale=en)
+Austria&#x27;s Federal Ministry of Education, Science and Research</srcDesc>
+</dataSource>
+<dataSource>
+<srcDesc>Austria&#x27;s Federal Ministry of Education, Science and Research</srcDesc>
+</dataSource>
+</dataLineage>
+</dqInfo>
+<distInfo>
+<distTranOps>
+<onLineSrc>
+<linkage>https://data.europa.eu/data/datasets/ab7cf2a1-ccbd-4179-a78c-8934b3ae8ac1?locale=en</linkage>
+</onLineSrc>
+</distTranOps>
+</distInfo>
+<refSysInfo>
+<RefSystem>
+<refSysID>
+<identCode code="WGS 84">
+</identCode>
+<idCodeSpace>EPSG:4326</idCodeSpace>
+</refSysID>
+</RefSystem>
+</refSysInfo>
+<mdConst>
+<Consts>
+<useLimit>Public accessn to the resource is allowed. No authentication required.</useLimit>
+</Consts>
+</mdConst>
+<spatRepInfo>
+<VectSpatRep>
+<topLvl>
+<TopoLevCd value="005">
+</TopoLevCd>
+</topLvl>
+</VectSpatRep>
+</spatRepInfo>
+<contInfo>
+<CovDesc>
+<attDesc>This dataset includes attribute fields describing the level of study, institution, location, name of the study programme and the URL to the respective course curriculum.</attDesc>
+<contentTyp>
+<ContentTypCd value="002">
+</ContentTypCd>
+</contentTyp>
+</CovDesc>
+</contInfo>
+<dataSetURI>https://zgis216.geo.sbg.ac.at/server/rest/services/st25_856162_sde_s1106876_SDI_POINTS/FeatureServer/0/query?where=1%3D1&amp;outFields=*&amp;returnGeometry=true&amp;f=json</dataSetURI>
+</metadata>
